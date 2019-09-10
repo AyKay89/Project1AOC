@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title> HTML text formatting elements </title>
+</head>
+
+<body>
+
+<h1> Contact Form </h1>
+
+<p>
+	<div>
+		<b> Please fill out: </b> 
+	</div>
+
+ <form action="action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" placeholder="First name"><br>
+    Last name:<br>
+    <input type="text" name="lastname"  placeholder="Family Name"><br/>
+    <br/>
+    Select gender: <br/>
+    <input type="radio" name="gender" value="male" checked> Male <br/>
+    <input type="radio" name="gender" value="female"> Female <br/>
+    <input type="radio" name="gender" value="other"> Other <br/>
+    <br/>
+    Select your mobilephone manufacturer: <br/>
+   <select name="phone">                                      
+      <option value="Apple">Apple</option>
+      <option value="Samsung" selected>Samsung</option>         <option value="Other">Other</option>
+    </select>
+    <br/><br/>
+    Tell us your favorite dish: <br/>
+    <textarea name="message" rows="10" cols="30">My favorite dish is Sushi.
+    </textarea>
+    <br/>
+    <br/>
+    <input type="submit" value="Submit your data">
+  </form>	
+
+<figure>
+ 		 <img src="https://cdn.pixabay.com/photo/2016/10/10/01/49/hook-1727484_960_720.png" width="30%" height="30%">
+ 	<figcaption>Done</figcaption>
+</figure>
+
+</body>
+</html>
